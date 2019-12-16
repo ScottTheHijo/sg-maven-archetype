@@ -13,12 +13,12 @@
         <div class="container">
             <h1>Spring MVC Application from Archetype</h1>
             <hr/>
-            <div class="navbar">
+            <nav class="navbar">
                 <ul class="nav nav-tabs">
-                	<li role="presentation" class="active"><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
-                	<li role="presentation"><a href="${pageContext.request.contextPath}/hello/sayhi">Hello Controller</a></li>
+                	<li class="nav-item" role="presentation" class="active"><a class="nav-link  active" href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
+                	<li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/hello/sayhi">Hello Controller</a></li>
                 </ul>    
-            </div>
+            </nav>
             <h2>Home Page</h2>
         </div>
         <!-- Placed at the end of the document so the pages load faster -->
